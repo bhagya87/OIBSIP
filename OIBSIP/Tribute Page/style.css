@@ -1,0 +1,61 @@
+ body
+    {
+        background-image: linear-gradient(to bottom right, rgba(238, 91, 155, 0.267), #f03939);
+    }
+    
+    .promo-title{
+        font-size: 40px;
+        font-weight: 600;
+        margin-top: 70px;
+    }
+    
+    .btn-primary{
+        box-shadow: none !important;
+        padding:8px 25px;
+        border-radius: 5px ;
+        border: 2px solid #3c366b !;
+        color: #3c366b !important;
+        background: none !important;
+    }
+    .btn-primary:hover{
+        background: #3c366b !important;
+        color:#fff !important;
+        border: 2px solid #fff !important;
+    }
+    
+    #life{
+        padding: 0px 0;
+        color: #3c366b;
+    }
+    #Career{
+        padding: 0px;
+        color:#3c366b;
+    }
+    .title::before{
+        content: '';
+        background:#3c366b;
+        height: 8px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 50px;
+        transform: translateY(46px);
+    }
+    ul{
+        list-style-type: none;
+        font-weight: 500;
+        /* font-weight: lighter; */
+    }
+    
+    ul li{
+        padding: 3px;
+        font-weight: 500;
+        color: black;
+    }
+
+    p{
+        padding: auto;
+        font-weight: 500;
+        color: #030305;
+    }
